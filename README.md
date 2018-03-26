@@ -1,8 +1,6 @@
 # SendMsg
 > 在安卓设备上，可以调用发短信接口，实现在后台自动发送短信功能
-> an android app that can send sms on background
-- 使用typescript
-- react-native with typescript
+
 # usage
 - 实现安卓原生模块 SendMsgTool
 ```typescript
