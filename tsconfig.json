@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "strict": true,
+    "jsx": "react",
+    "module": "es2015",
+    "outDir": "./dist/",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "target": "es6",
+    "lib": [
+      "dom",
+      "es6",
+      "es7"
+    ],
+    "watch": true
+  },
+  "include": [
+    "./src/"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
