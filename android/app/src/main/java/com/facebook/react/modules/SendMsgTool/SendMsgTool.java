@@ -71,7 +71,7 @@ public class SendMsgTool extends ReactContextBaseJavaModule {
             SmsManager sms = SmsManager.getDefault();
             ArrayList<String> msgList = sms.divideMessage(msg);
             // TIPS1: 若文本信息过长，则使用分割后的第一段
-            // TIP2: 如果需要发送所有文本，请遍历 msgList
+            // TIPS2: 如果需要发送所有文本，请遍历 msgList
             int i = 0;
             Intent sentIntent = new Intent(SENT_SMS_ACTION);
             sentIntent.putExtra(KEY_PHONENUM, phone);
