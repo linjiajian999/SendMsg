@@ -34,3 +34,4 @@ DeviceEventEmitter.addListener(
 ```
 详情可参考 [send-msg-tool.ts](https://github.com/linjiajian999/SendMsg/blob/master/src/send-msg-tool/index.ts)
 - iOS由于api限制，不能自动发送短信，只实现了APP内调起发送短信界面，需要手动发送
+- app部分界面还在开发中，主要功能已可以使用
