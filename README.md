@@ -34,5 +34,6 @@ DeviceEventEmitter.addListener(
 ```
 详情可参考 [send-msg-tool.ts](https://github.com/linjiajian999/SendMsg/blob/master/src/send-msg-tool/index.ts)  
 [安卓主要代码实现](https://github.com/linjiajian999/SendMsg/blob/master/android/app/src/main/java/com/facebook/react/modules/SendMsgTool/SendMsgTool.java)
+[iOS代码实现](https://github.com/linjiajian999/SendMsg/blob/master/ios/SendMsgTool.m)
 - iOS由于api限制，不能自动发送短信，只实现了APP内调起发送短信界面，需要手动发送
 - 主要功能已实现
