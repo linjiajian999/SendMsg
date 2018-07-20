@@ -68,6 +68,11 @@ RCT_REMAP_METHOD(sendMsg,
   
 }
 
+
+/**
+* should ignore
+* 下面代码请忽略
+*/
 - (NSArray *)getClassMethods: (Class) cls
 {
   unsigned int count = 0;
